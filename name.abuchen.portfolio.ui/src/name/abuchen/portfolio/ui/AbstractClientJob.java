@@ -13,7 +13,7 @@ public abstract class AbstractClientJob extends Job
         super(name);
         this.client = client;
     }
-    //TEST
+
     @Override
     public boolean belongsTo(Object family)
     {
