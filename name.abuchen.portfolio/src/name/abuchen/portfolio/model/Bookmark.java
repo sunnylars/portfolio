@@ -7,15 +7,19 @@ import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import java.text.MessageFormat;
 >>>>>>> 9beb928... #698 Im Browser öffnen: intelligente Ersetzungslogik für Ticker, ISIN und WKN
 =======
 >>>>>>> 3457f71... Issue#698 Im Browser öffnen: intelligente Ersetzungslogik für Ticker, ISIN und WKN
+=======
+>>>>>>> 0fb3cde... #698 Im Browser öffnen: intelligente Ersetzungslogik für Ticker, ISIN und WKN
 import java.util.HashMap;
 import java.util.Map.Entry;
 import java.util.TreeMap;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -24,6 +28,8 @@ import name.abuchen.portfolio.Messages;
 
 =======
 >>>>>>> 3457f71... Issue#698 Im Browser öffnen: intelligente Ersetzungslogik für Ticker, ISIN und WKN
+=======
+>>>>>>> 0fb3cde... #698 Im Browser öffnen: intelligente Ersetzungslogik für Ticker, ISIN und WKN
 public class Bookmark
 {
     private String label;
