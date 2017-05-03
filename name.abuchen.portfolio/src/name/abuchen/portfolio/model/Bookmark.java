@@ -1,17 +1,13 @@
 package name.abuchen.portfolio.model;
 
-import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
-import java.text.MessageFormat;
 import java.util.HashMap;
 import java.util.Map.Entry;
 import java.util.TreeMap;
-
-import name.abuchen.portfolio.Messages;
 
 public class Bookmark
 {
