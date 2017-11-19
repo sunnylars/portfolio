@@ -1128,6 +1128,29 @@ public class OnvistaPDFExtractorTest
     }
 
     @Test
+    public void testKontoauszugFehler2017() throws IOException
+    {
+        OnvistaPDFExtractor extractor = new OnvistaPDFExtractor(new Client());
+
+        List<Exception> errors = new ArrayList<Exception>();
+        List<Item> results = extractor.extract(
+                        PDFInputFile.loadTestCase(getClass(), "OnvistaKontoauszug2017_deutschebankerkannt.txt"), errors);
+
+        assertThat(errors, empty());
+        assertThat(results.size(), is(7));
+        new AssertImportActions().check(results, CurrencyUnit.EUR);
+
+        assertTransaction(results, 0, "2017-04-04", AccountTransaction.Type.DEPOSIT, CurrencyUnit.EUR, 200.00);
+        assertTransaction(results, 1, "2017-04-10", AccountTransaction.Type.REMOVAL, CurrencyUnit.EUR, 0.89);
+        assertTransaction(results, 2, "2017-05-03", AccountTransaction.Type.DEPOSIT, CurrencyUnit.EUR, 200.00);
+        assertTransaction(results, 3, "2017-06-01", AccountTransaction.Type.DEPOSIT, CurrencyUnit.EUR, 100.00);
+        assertTransaction(results, 4, "2017-06-02", AccountTransaction.Type.DEPOSIT, CurrencyUnit.EUR, 200.00);
+        assertTransaction(results, 5, "2017-06-26", AccountTransaction.Type.DEPOSIT, CurrencyUnit.EUR, 300.00);
+        assertTransaction(results, 6, "2017-06-26", AccountTransaction.Type.DEPOSIT, CurrencyUnit.EUR, 200.00);
+
+    }
+    
+    @Test
     public void testKontoauszugMehrereBuchungen2017() throws IOException
     {
         OnvistaPDFExtractor extractor = new OnvistaPDFExtractor(new Client());

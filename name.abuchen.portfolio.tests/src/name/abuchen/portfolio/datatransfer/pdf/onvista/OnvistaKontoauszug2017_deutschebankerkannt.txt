@@ -1,0 +1,68 @@
+BELEGDRUCK=J
+ORIGINAL=1
+FAXVERSAND=N
+EMAILVERSAND=N
+DEPOTNUMMER=123
+DEPOTUNTERBEZEICHNUNG=
+VERSANDARTENSCHLUESSEL=EBOX
+Wertpapierabrechnung ADRESSZEILE1=Herr
+ADRESSZEILE2=Max Mustermann
+Verkauf ADRESSZEILE3=Musterweg 1
+Kommissionsgeschäft ADRESSZEILE4=12345 Teststadt
+Herr ADRESSZEILE5=
+Lars Hercher ADRESSZEILE6=
+Depot-Nr. Abrechnungs-Nr.
+Musterweg 1 BELEGNUMMER=7669
+TTT / 17.11.2017 SEITENNUMMER=1STEUERERSTATTUNG=N
+Depotinhaber
+Max Mustermann
+Frankfurt am Main, 17.11.2017
+Wir haben für Sie verkauft
+Gattungsbezeichnung ISIN
+Deutsche Bank AG WUnlP O.End FTSE100 DE000XM3ECV4
+Nominal Kurs
+STK 200,000 EUR 1,9700
+Handelstag 16.11.2017 Kurswert EUR 394,00 
+Handelszeit 20:38 Orderprovision EUR 5,00-
+Börse außerbörslich Deutsche Bank Handelsplatzgebühr EUR 1,50-
+Verwahrart Girosammelverwahrung
+Wert Konto-Nr. Betrag zu Ihren Gunsten
+21.11.2017 2 EUR 387,50
+Hinweise zur steuerlichen Verrechnung: vorher aktuell
+Veräußerungsverlust Sonstige EUR 97,00
+Aktienverlusttopf EUR 264,64 264,64
+allgemeiner Verlusttopf EUR 0,00 0,00
+Quellensteuertopf EUR 0,00 0,00
+zu versteuern (negativ) EUR 97,00
+Steuerausgleich nach § 43a EStG:
+Kapitalertragsteuer EUR 23,77
+Solidaritätszuschlag EUR 1,31
+Kirchensteuer EUR 1,90
+Wert Konto-Nr. Abrechnungs-Nr. Betrag zu Ihren Gunsten
+Es folgt Seite 2
+3.18/ABREABHNHANDVFDI/GABISAUB/007669/181117/003436
+BELEGDRUCK=J
+ORIGINAL=1
+FAXVERSAND=N
+EMAILVERSAND=N
+DEPOTNUMMER=237584000
+DEPOTUNTERBEZEICHNUNG=
+VERSANDARTENSCHLUESSEL=EBOX
+ADRESSZEILE1=Herr
+Depot-Nr. Abrechnungs-Nr. Seite-Nr. ADRESSZEILE2=Lars Hercher
+237584000 94835585 2 ADRESSZEILE3=Hoehenstr. 34
+ADRESSZEILE4=63829 Krombach
+ADRESSZEILE5=
+ADRESSZEILE6=
+BELEGNUMMER=7669
+im laufenden Jahr einbehaltene Kapitalertragsteuer EUR 1.251,14 SEITENNUMMER=2
+im laufenden Jahr einbehaltener Solidaritätszuschlag EUR 68,81 STEUERERSTATTUNG=N
+im laufenden Jahr einbehaltene Kirchensteuer EUR 100,09
+Kapitalertragsteuer, Solidaritätszuschlag und ggf. Kirchensteuer nach gemeldetem Kirchensteuersatz verrechnet mit dem
+Finanzamt Itzehoe, Steuernummer 18/297/13562.
+Jahressteuerbescheinigung folgt
+Wir werden in Ihrem Depot wie angegeben buchen.
+Dieser Beleg wird maschinell erstellt und daher nicht unterschrieben.
+Wir bitten Sie, diese Abrechnung auf ihre Richtigkeit und Vollständigkeit zu überprüfen und etwaige Einwendungen
+unverzüglich zu erheben.
+3.18/ABREABHNHANDVFDI/GABISAUB/007669/181117/003436

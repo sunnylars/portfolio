@@ -23,7 +23,7 @@ public class OnvistaPDFExtractor extends AbstractPDFExtractor
     {
         super(client);
 
-        addBankIdentifier(""); //$NON-NLS-1$
+        addBankIdentifier(); //$NON-NLS-1$
 
         addBuyTransaction();
         addSellTransaction();
@@ -43,6 +43,17 @@ public class OnvistaPDFExtractor extends AbstractPDFExtractor
         addAccountStatementTransaction2017();
     }
 
+    private void addBankIdentifier(){
+        DocumentType type = new DocumentType("Steuerausgleich nach § 43a");
+        this.addDocumentTyp(type);
+
+        Block block1 = new Block("Wir haben für Sie (ge|ver)kauft(.*)");
+        type.addBlock(block1);
+
+        Block block2 = new Block("(Aus|Ein)buchung:(.*)");
+        type.addBlock(block2);
+    }
+    
     private void addBuyTransaction()
     {
         DocumentType type = new DocumentType("Wir haben für Sie gekauft");
